@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learner's Feedback</title>
+</head>
+<body>
+    <h1>Learner's Feedback Form </h1>
+    <form action="#">
+        <label for="course">Course Name:</label>
+        <select name="course" id="course">
+            <option value="select">Select</option>
+            <option value="C">C,C++,DSA and STL</option>
+            <option value="FSWD-Master class">Full stack web development</option>
+            <option value="DSA-Python">DSA using python</option>
+            <option value="Java">Java for beginer</option>
+            <option value="AdvanceJava">Advance Java</option>
+        </select>
+        <br/>
+        <br>
+        <label for="instructor">Instructor Name:</label>
+        <select name="instructor" id="instructor">
+            <option value="Select">Select </option>
+            <option value="MysirG">Saurabh Sir</option>
+            <option value="- ">-</option>
+        </select>
+        <br/>
+        <br>
+        <label for="Rating">Rating (Scale of 1 to 5):</label>
+        <br/>
+        <input type="radio" id="Rating" name="rating">1
+        <input type="radio" id="Rating" name="rating">2
+        <input type="radio" id="Rating" name="rating">3
+        <input type="radio" id="Rating" name="rating">4
+        <input type="radio" id="Rating" name="rating">5
+        <br><br>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
